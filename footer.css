@@ -1,0 +1,53 @@
+.footer div{
+    height: 350px;
+    width: 99vw;
+    margin: 22px -8px;
+    background-color: black;
+ }
+ 
+ .footer div img{
+    height: 80px;
+    width: 80px;
+    float: left;
+    padding: 40px 50px;
+ }
+ 
+ .footer h1{
+     color: yellow;
+     font-size: 2em;
+     padding: 50px 200px;
+     font-size: 35px;
+     margin: -22px 0px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ 
+ .footer div ul{
+     list-style: none;
+     display: inline;
+     
+ }
+ .footer div ul li a{
+     font-size: 28px;
+     padding: 0px 14px;
+     text-decoration: none;
+     color: white;
+     transition: all .2s ease-in-out;
+ }
+ 
+ .footer div ul li a:hover{
+     color: gold;
+     text-decoration: underline;
+     animation: link;
+     animation-duration: .3s;
+     animation-fill-mode: forwards;
+ }
+ 
+ @keyframes link{
+     from{
+ 
+     }
+     to{
+         font-size: 35px;
+     }
+ }
+ 

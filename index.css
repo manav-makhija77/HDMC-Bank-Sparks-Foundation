@@ -1,0 +1,155 @@
+*
+{   top: 0px;
+    left: 0px;
+}
+
+.main {
+    height: 1300px;
+    width: 99vw;
+    margin: -27px 0px 0px -10px;
+    background-color: blue;
+}
+
+.main-content h1{
+    text-align: center;
+    color: white;
+    margin: 27px 0px -13px 27px;
+    cursor: pointer;
+    padding: 31px 0px 0px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main-content div{
+    height: 440px;
+    z-index: 3;
+    width: 78vw;
+    background-color: gold;
+    margin: 40px 160px;
+    border-radius: 10px;
+    background-image: url(image/image\ 1.jpg);
+    animation: slider;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    
+
+}
+
+@keyframes slider {
+    0%{ 
+        background-image: url(image/image\ 1.jpg);
+        
+    }
+    30%{
+        background-image: url(image/image\ 2.jpg);                
+    }
+    66%{
+        background-image: url(image/image\ 3.jpg);
+    }
+    85%{
+        background-image: url(image/image\ 4.jpg);
+    }
+   
+}
+
+.services h1{
+    font-size: 35px;
+    z-index: 3;
+    text-align: center;
+    color: white;
+    margin: 27px 0px -13px 27px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.services div{
+    height: 250px;
+    width: 87vw;
+    z-index: 3;
+    background-color:rgb(42, 201, 225);
+    /* margin: 44px 83px; */
+    border-radius: 10px;
+    animation: bankservice;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+    
+}
+
+@keyframes bankservice {
+    0%{
+        display: none;
+    }
+    10%{
+        display: block;
+        margin:44px 15px;
+    }
+    20%{
+        margin:44px 25px;
+    }
+    30%{
+        margin:44px 35px;
+    }
+    45%{
+        margin:44px 55px;
+    }
+    70%{
+        margin:44px 65px;
+    }
+    85%{
+        margin:44px 75px;
+    }
+    100%{
+        margin: 44px 83px;
+    }
+
+}
+
+.services div p{
+    font-size: 24px;
+    padding: 50px 50px;
+    color: blue;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: .2s ease-in-out;
+    z-index: 3;
+}
+
+.services div p:hover{
+    color: black;
+}
+
+.section2{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    
+}
+.section2 img{
+    height: 150px;
+    width: 200px;
+    margin: 22px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    z-index: 3;
+
+}
+.section2 img:hover{
+    border-radius: 15px;
+    transform: scale(1.1);
+
+}
+
+.section2 h2{
+    color: rgb(255, 242, 0);
+    position: relative;
+    /* padding: 1384px 0px 0px 240px; */
+    z-index: 1;
+    text-shadow: 1px 0px 1px black;
+    cursor: pointer;
+    transition: all .1s ease-in-out;
+    
+}
+.section2 h2:hover{
+    color: black;
+}
+
+

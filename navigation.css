@@ -1,0 +1,32 @@
+.nav{
+    height: 70px;
+    width: 99vw;
+    background-color: rgb(42, 201, 225);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    z-index: 3;
+    
+
+}
+.nav ul li{
+    list-style: none;
+    display: flex;   
+    
+}
+.nav ul li a{
+    text-decoration: none;
+    display: block;
+    padding:20px 52px;
+    font-size: 28px;
+    transition: all .3s ease-in-out;
+    z-index: 3;
+
+}
+
+.nav ul li a:hover{
+    color: yellow;
+    text-decoration: underline;
+    background-color: red;
+}

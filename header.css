@@ -1,0 +1,45 @@
+.header p{
+    display: inline-block;
+    padding: 0px 366px;
+    font-size: 18px;
+    color: rgb(234, 255, 0);
+}
+
+.header {
+    margin-top: -22px;
+    height: 125px;
+    width: 99vw;
+    background: rgb(31,18,255);
+    background: linear-gradient(90deg, rgba(31,18,255,1) 18%, rgba(67,15,209,1) 20%, rgba(230,0,0,1) 22%, rgba(230,0,0,1) 77%, rgba(31,18,255,1) 78%);
+}
+.header img{
+    height: 58px;
+    width: 66px;
+    float: left;  
+    margin: 33px 72px;  
+    cursor: pointer;        
+}
+
+.header h1{
+    text-align: center;
+    padding: 7px 360px;
+    animation: animate;
+    display: inline-block;
+    margin-bottom: -7px;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes animate {
+    from{
+        font-size: 22px;
+    }
+
+    to{
+        font-size: 35px;
+        color:gold;
+        text-shadow: 5px 0px 5px black;
+        
+    }
+    
+}
